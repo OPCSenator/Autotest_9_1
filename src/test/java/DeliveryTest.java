@@ -35,12 +35,12 @@ class DeliveryTest {
         $x("//*[@data-test-id=\"phone\"]//self::input").setValue(validUser.getPhone());
         $x("//*[@data-test-id=\"agreement\"]").click();
         $x("//span[text()='Запланировать']").click();
-        $x("//*[@data-test-id=\"success-notification\"]").shouldBe(appear).shouldHave(text("Успешно!"), Duration.ofMillis(5000));
+        $x("//*[@data-test-id=\"success-notification\"]").shouldBe(appear).shouldHave(text("Успешно!\n" + "Встреча успешно запланирована на " + firstMeetingDate), Duration.ofMillis(5000));
         $x("//*[@data-test-id=\"date\"]//self::input").doubleClick().sendKeys(Keys.BACK_SPACE, secondMeetingDate);
         $x("//span[text()='Запланировать']").click();
         $x("//*[@data-test-id=\"replan-notification\"]").shouldBe(appear).shouldHave(text("Необходимо подтверждение"), Duration.ofMillis(5000));
         $x("//span[text()='Перепланировать']").click();
-        $x("//*[@data-test-id=\"success-notification\"]").shouldBe(appear).shouldHave(text("Успешно!"), Duration.ofMillis(5000));
+        $x("//*[@data-test-id=\"success-notification\"]").shouldBe(appear).shouldHave(text("Успешно!\n" + "Встреча успешно запланирована на " + secondMeetingDate), Duration.ofMillis(5000));
     }
 }
 
