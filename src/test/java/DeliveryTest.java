@@ -28,6 +28,7 @@ class DeliveryTest {
         var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
         var daysToAddForSecondMeeting = 7;
         var secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
+
         $x("//*[@data-test-id=\"city\"]//self::input").setValue(validUser.getCity());
         $x("//*[@data-test-id=\"date\"]//self::input").doubleClick().sendKeys(Keys.BACK_SPACE, firstMeetingDate);
         $x("//*[@data-test-id=\"name\"]//self::input").setValue(validUser.getName());
