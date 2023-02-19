@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eecc5ee-7ab8-48af-b68a-c2419819760a" name="Changes" comment="еще раз поправил">
+    <list default="true" id="8eecc5ee-7ab8-48af-b68a-c2419819760a" name="Changes" comment="Добавил в проверку текста firstmeetdate и secondmeetdate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.DeliveryTest">
+  <component name="RunManager" selected="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting">
     <configuration name="DeliveryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -89,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeliveryTest" />
-        <item itemvalue="JAR Application.app-card-delivery.jar" />
         <item itemvalue="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting" />
+        <item itemvalue="JAR Application.app-card-delivery.jar" />
+        <item itemvalue="Gradle.DeliveryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676812577639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил в проверку текста firstmeetdate и secondmeetdate">
+      <created>1676826600706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676826600706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit вроде все работает" />
     <MESSAGE value="еще раз поправил" />
-    <option name="LAST_COMMIT_MESSAGE" value="еще раз поправил" />
+    <MESSAGE value="Добавил в проверку текста firstmeetdate и secondmeetdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил в проверку текста firstmeetdate и secondmeetdate" />
   </component>
 </project>
