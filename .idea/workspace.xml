@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eecc5ee-7ab8-48af-b68a-c2419819760a" name="Changes" comment="Добавил в проверку текста firstmeetdate и secondmeetdate">
+    <list default="true" id="f0ac1f00-592b-4198-b7c7-eeca956d043b" name="Changes" comment="пробел">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,7 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting">
+  <component name="RunManager" selected="Gradle.DeliveryTest (1)">
+    <configuration name="DeliveryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="DeliveryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -51,6 +86,7 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;DeliveryTest&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -87,11 +123,25 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/artifacts/app-card-delivery.jar" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Autotest_5_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Autotest_5_1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting" />
-        <item itemvalue="JAR Application.app-card-delivery.jar" />
+        <item itemvalue="Gradle.DeliveryTest (1)" />
         <item itemvalue="Gradle.DeliveryTest" />
+        <item itemvalue="JAR Application.app-card-delivery.jar" />
+        <item itemvalue="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676826600706</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="пробел">
+      <created>1676828354930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828354930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +200,7 @@
     <MESSAGE value="first commit вроде все работает" />
     <MESSAGE value="еще раз поправил" />
     <MESSAGE value="Добавил в проверку текста firstmeetdate и secondmeetdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил в проверку текста firstmeetdate и secondmeetdate" />
+    <MESSAGE value="пробел" />
+    <option name="LAST_COMMIT_MESSAGE" value="пробел" />
   </component>
 </project>
